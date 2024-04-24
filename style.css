@@ -6,9 +6,9 @@ body {
     min-height: 100vh;
     max-width: 800px;
     margin: 0 auto;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-left: 1px solid #333;
-    border-right: 1px solid #333;
+    border-right: 1px solid #050505;
 }
 
 th, td, caption {
@@ -16,4 +16,37 @@ th, td, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: separate;
     padding: 0.5rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar{
+
+    border-bottom: 1px solid rgb(70, 70,70,0.7);
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 800px;
+}
+nav ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+main{
+    padding: 0 1rem;
+}
+h1,h2{
+    cursor: pointer;
+}
+.nav-contanier{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
 }
